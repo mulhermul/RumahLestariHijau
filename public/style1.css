@@ -364,4 +364,96 @@ img {vertical-align: middle;}
     margin-left: 5%;
     color: white;
   }
+
+  #footer .copyright {
+    text-align: center;
+    color: white;
+    border-top: 1% solid;
+    margin-bottom:0;
+  }
+  /* color: white; border-top: 1% solid; text-align: center; margin-bottom:0; */
+
+
+
   /* Untuk Destinasi End */
+
+
+  /* footer icon */
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+  
+  @charset "UTF-8";
+  
+  .svg-inline--fa {
+    vertical-align: -0.200em;
+  }
+  
+  .rounded-social-buttons {
+    text-align: center;
+    margin-top: 40%;
+  }
+  
+  .rounded-social-buttons .social-button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 3.125rem;
+    height: 3.125rem;
+    border: 0.125rem solid transparent;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    color: #fefefe;
+    font-size: 1.5625rem;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 1.6875rem;
+    transition: all 0.5s ease;
+    margin-right: 0.25rem;
+    margin-bottom: 1.20rem;
+  }
+  
+  .rounded-social-buttons .fa-facebook-f, .fa.whatsapp, .fa-instagram {
+    font-size: 25px;
+  }
+  
+  .rounded-social-buttons .social-button.facebook {
+    background: #3b5998;
+  }
+  
+  .rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+    color: #3b5998;
+    background: #fefefe;
+    border-color: #3b5998;
+  }
+  
+  .rounded-social-buttons .social-button.whatsapp {
+    background: #25D366;
+  }
+  
+  .rounded-social-buttons .social-button.whatsapp:hover, .rounded-social-buttons .social-button.whatsapp:focus {
+    color: #25D366;
+    background: #fefefe;
+    border-color: #25D366;
+  }
+  
+  .rounded-social-buttons .social-button.instagram {
+    background: #833AB4;
+  }
+  
+  .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+    color: #833AB4;
+    background: #fefefe;
+    border-color: #833AB4;
+  }
+  
+  
